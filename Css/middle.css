@@ -1,0 +1,182 @@
+.middle-wrapper {
+    width: 100%;
+    margin-top: 50px;
+}
+/* SERVICE */
+.middle-wrapper .con-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    height: 550px;
+}
+.middle-wrapper .con-wrapper .wrapper-left {
+    float: left;
+    width: 472px;
+    height: 100%;
+}
+.middle-wrapper .con-wrapper h2 {
+    color: #424242;
+    font-weight: bolder;
+    text-shadow: 8px 8px 5px #aaa;
+}
+.middle-wrapper .con-wrapper .fuwu {
+    width: 78px;
+    height: 23px;
+    background-color: red;
+    color: #fff;
+    line-height: 23px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.middle-wrapper .con-wrapper .bhjj {
+    padding-top: 40px;
+    text-indent: 2em;
+    line-height: 30px;
+    color: #424242;
+}
+.middle-wrapper .con-wrapper .wrapper-left .bhjj p {
+    margin-top: 2px;
+    line-height: 40px;
+}
+.middle-wrapper .con-wrapper .wrapper-left .bhjj .tel {
+    text-align: right;
+}
+.middle-wrapper .con-wrapper .wrapper-left .bhjj .tel a {
+    color: #424242;
+}
+.middle-wrapper .con-wrapper .wrapper-right {
+    float: right;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin-left: 50px;
+    width: 630px;
+    padding:0px 10px 0px;
+    box-sizing: border-box;
+}
+.middle-wrapper .con-wrapper .wrapper-right .list {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    text-align: center;
+}
+.middle-wrapper .con-wrapper .wrapper-right .list .item {
+    width:200px;
+    height: 140px;
+    margin-top: 12px;
+    transition: margin .5s linear;
+}
+.middle-wrapper .con-wrapper .wrapper-right .list .item:hover {
+    margin-top: -6px;
+}
+.middle-wrapper .con-wrapper .wrapper-right .list .item span {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid orangered;
+    line-height: 80px;
+    text-align: center;
+    font-size: 50px;
+    color:#424242;
+    font-weight: 600;
+}
+.middle-wrapper .con-wrapper .wrapper-right .list .item .painting {
+    line-height: 30px;
+    color: #444
+}
+.middle-wrapper .con-wrapper .wrapper-right .list .item .eng {
+    color: #999;
+}
+/* CASES */
+.middle-wrapper .cases {
+    width: 100%;
+}
+.middle-wrapper .cases .con-cases {
+    width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+    margin-top: 50px;
+    text-align: center;
+}
+.middle-wrapper .cases .con-cases h2 {
+    color: #424242;
+    font-size: 35px;
+    margin:5px 0px 5px;
+    text-shadow: 8px 8px 5px #aaa;
+}
+.middle-wrapper .cases .con-cases>p {
+    width: 78px;
+    height: 23px;
+    background-color: red;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}
+.middle-wrapper .cases .con-cases .swiper-container {
+    width: 100%;
+    height: 80%;
+}
+.middle-wrapper .cases .con-cases .swiper-container .swiper-wrapper {
+    width: 100%;
+    height: 100%;
+}
+.middle-wrapper .cases .con-cases .swiper-container .swiper-wrapper .swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+.middle-wrapper .cases .con-cases .swiper-container .swiper-wrapper .swiper-slide a img {
+    width: 100%;
+    height: 100%
+}
+.middle-wrapper .cases .con-cases .swiper-container .swiper-wrapper .swiper-slide>div{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.middle-wrapper .cases .con-cases .swiper-container .swiper-wrapper .swiper-slide div .tav-name {
+    position: absolute;
+    top: 30%;
+    font-size: 50px;
+    cursor: pointer;
+}
+.middle-wrapper .cases .con-cases .swiper-container .swiper-wrapper .swiper-slide div a .details {
+    color: #fff;
+    position: absolute;
+    top: 55%;
+    width: 70px;
+    border: 1px solid #888;
+    padding: 4px 4px;
+    background-color: #000;
+    opacity: 0.5;
+    line-height: 26px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: -35px;
+    transition: all .5s linear;
+}
+.middle-wrapper .cases .con-cases .swiper-container .swiper-wrapper .swiper-slide:hover .details {
+    color: #000;
+    background-color: #fff;
+    opacity: 1;
+}
+.middle-wrapper .cases .con-cases .swiper-pagination {
+    width: 1200px;
+    height: 6px;
+    background-color: #eee;
+}
+.middle-wrapper .cases .con-cases .swiper-pagination span {
+    background-color: #42b983;
+}
